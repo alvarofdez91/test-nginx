@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   pullPolicy: IfNotPresent
   repository: 869279755764.dkr.ecr.eu-west-1.amazonaws.com/test-nginx
-  version: main-5c5d129
+  version: main-d3820d2
 
 imagePullSecrets: []
 nameOverride: ""
