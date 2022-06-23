@@ -14,7 +14,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 labels:
-  enviroment: int
+  enviroment: pro
 
 serviceAccount:
   # Specifies whether a service account should be created
