@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 1
+replicaCount: 2
 
 image:
   pullPolicy: IfNotPresent
@@ -14,7 +14,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 labels:
-  enviroment: int
+  enviroment: int3
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -36,7 +36,7 @@ securityContext: {}
 
 service:
   type: LoadBalancer
-  port: 80
+  port: 8787
 
 ingress:
   enabled: false
