@@ -7,14 +7,14 @@ replicaCount: 2
 image:
   pullPolicy: IfNotPresent
   repository: 869279755764.dkr.ecr.eu-west-1.amazonaws.com/test-nginx
-  version: dev-bf473f3
+  version: main-38be9bf
 
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
 labels:
-  enviroment: pro2
+  enviroment: pro
 
 serviceAccount:
   # Specifies whether a service account should be created
