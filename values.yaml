@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 3
+replicaCount: 1
 
 image:
   pullPolicy: IfNotPresent
@@ -14,7 +14,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 labels:
-  enviroment: pro
+  enviroment: produccion
 
 serviceAccount:
   # Specifies whether a service account should be created
